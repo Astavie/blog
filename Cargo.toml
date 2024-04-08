@@ -1,0 +1,18 @@
+[package]
+name = "blog"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+activitypub_federation = "0.5.2"
+anyhow = "1.0.81"
+async-trait = "0.1.79"
+axum = "0.6.20"
+axum-macros = "0.4.1"
+chrono = "0.4.37"
+serde = { version = "1.0.197", features = ["derive"] }
+tokio = { version = "1.37.0", features = ["macros", "rt-multi-thread"] }
+tracing = "0.1.40"
+url = "2.5.0"
